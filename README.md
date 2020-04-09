@@ -1,4 +1,3 @@
 # TopOneMarket
 全网第一的商城项目模板
-
-![项目架构图](https://image-xiaoazhai.oss-cn-hangzhou.aliyuncs.com/blog/网络部署架构图.png)
+![架构图.png](http://ww1.sinaimg.cn/large/0060v58nly1gdnm2xuqtmj30so0q2adx.jpg)
