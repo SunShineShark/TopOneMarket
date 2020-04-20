@@ -12,4 +12,13 @@
     <name>cute_market_gateway</name>
     <description>网关拦截层</description>
 
+    <dependencies>
+        <!--springCloudGateway-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
+            <version>${spring.cloud.alibaba.version}</version>
+        </dependency>
+    </dependencies>
+
 </project>
