@@ -15,6 +15,11 @@
     <name>cute_market</name>
     <description>宠物超市项目</description>
 
+    <modules>
+        <module>cute_market_core</module>
+        <module>cute_market_gateway</module>
+    </modules>
+
     <properties>
         <spring.cloud.alibaba.version>2.2.0.RELEASE</spring.cloud.alibaba.version>
         <java.version>1.8</java.version>

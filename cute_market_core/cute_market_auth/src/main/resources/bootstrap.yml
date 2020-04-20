@@ -3,11 +3,10 @@ spring:
     nacos:
       config:
         server-addr: nacos.xiaoazhai.com:80
-        namespace: 7004c36b-f984-4c1e-a361-9d1306bcc5c3
+        namespace: 7402c35c-5b8d-466a-a99e-9b3f0efbc5a0
         shared-configs[0]:
-          data-id: common.yaml
-          group: common-config
-        shared-configs[1]:
-          data-id: user.yml
-          group: user-config
-          refresh: true
+          data-id: common
+#        shared-configs[1]:
+#          data-id: user.yml
+#          group: user-config
+#          refresh: true
