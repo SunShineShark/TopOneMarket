@@ -14,4 +14,12 @@
     <name>cute_market_auth</name>
     <description>用户商户服务</description>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.shardingsphere/sharding-jdbc-core -->
+        <dependency>
+            <groupId>org.apache.shardingsphere</groupId>
+            <artifactId>sharding-jdbc-core</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+    </dependencies>
 </project>
