@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.sunzhai</groupId>
-    <artifactId>cute_market_auth</artifactId>
+    <artifactId>cute_market_gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>auth</name>
-    <description>用户商户服务</description>
+    <name>cute_market_gateway</name>
+    <description>网关拦截层</description>
 
     <properties>
         <java.version>11</java.version>
@@ -24,11 +24,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
