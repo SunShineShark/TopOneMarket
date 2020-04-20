@@ -11,7 +11,7 @@
     <groupId>com.sunzhai</groupId>
     <artifactId>cute_market_auth</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>auth</name>
+    <name>cute_market_auth</name>
     <description>用户商户服务</description>
 
     <properties>

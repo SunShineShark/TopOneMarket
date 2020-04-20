@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.sunzhai</groupId>
-    <artifactId>cute_market_auth</artifactId>
+    <artifactId>cute_market_core</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cute_market_auth</name>
+    <name>cute_market_core</name>
     <description>商户用户服务中心</description>
 
     <properties>
