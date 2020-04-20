@@ -13,7 +13,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>sunzhai-user</name>
     <description>Demo project for Spring Boot</description>
-
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -24,16 +23,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-nacos-config -->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-            <version>${spring.cloud.alibaba.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-            <version>${spring.cloud.alibaba.version}</version>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
