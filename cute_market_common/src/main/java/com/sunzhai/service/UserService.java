@@ -1,4 +1,4 @@
-package com.sunzhai.impl;
+package com.sunzhai.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.sunzhai.entity.User;

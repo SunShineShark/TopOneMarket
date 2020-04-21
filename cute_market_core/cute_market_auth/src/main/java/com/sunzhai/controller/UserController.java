@@ -2,7 +2,7 @@ package com.sunzhai.controller;
 
 
 import com.sunzhai.entity.User;
-import com.sunzhai.impl.UserService;
+import com.sunzhai.service.UserService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
