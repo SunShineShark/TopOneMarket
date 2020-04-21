@@ -1,8 +1,8 @@
-package com.sunzhai.auth.impl;
+package com.sunzhai.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.sunzhai.auth.entity.User;
-import com.sunzhai.auth.mapper.UserMapper;
+import com.sunzhai.entity.User;
+import com.sunzhai.mapper.UserMapper;
 import org.springframework.stereotype.Service;
 
 /**

@@ -1,8 +1,8 @@
-package com.sunzhai.auth.controller;
+package com.sunzhai.controller;
 
 
-import com.sunzhai.auth.entity.User;
-import com.sunzhai.auth.impl.UserService;
+import com.sunzhai.entity.User;
+import com.sunzhai.impl.UserService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 

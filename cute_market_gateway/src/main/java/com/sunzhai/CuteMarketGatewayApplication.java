@@ -1,4 +1,4 @@
-package com.sunzhai.cute_market_gateway;
+package com.sunzhai;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

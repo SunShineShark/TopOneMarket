@@ -1,4 +1,4 @@
-package com.sunzhai.auth.entity;
+package com.sunzhai.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
@@ -19,7 +19,7 @@ import lombok.experimental.Accessors;
  * @since 2020-04-20
  */
 @Data
-@EqualsAndHashCode(callSuper = false)
+@EqualsAndHashCode
 @Accessors(chain = true)
 @TableName("cute_user")
 @Builder

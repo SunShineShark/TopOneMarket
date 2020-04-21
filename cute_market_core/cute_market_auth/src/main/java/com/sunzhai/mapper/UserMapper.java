@@ -1,7 +1,7 @@
-package com.sunzhai.auth.mapper;
+package com.sunzhai.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.sunzhai.auth.entity.User;
+import com.sunzhai.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

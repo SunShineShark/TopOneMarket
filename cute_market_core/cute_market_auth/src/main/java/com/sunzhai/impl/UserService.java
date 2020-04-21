@@ -1,7 +1,7 @@
-package com.sunzhai.auth.impl;
+package com.sunzhai.impl;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.sunzhai.auth.entity.User;
+import com.sunzhai.entity.User;
 
 /**
  * <p>
