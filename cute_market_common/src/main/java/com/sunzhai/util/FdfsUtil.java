@@ -24,9 +24,9 @@ public class FdfsUtil {
     private FastFileStorageClient storageClient;
     @Autowired
     private ThumbImageConfig thumbImageConfig;
-    @Value("${spring.profiles.active}")
+//    @Value("${spring.profiles.active}")
     private String active;
-    @Value("${fdfs.baseUrl}")
+//    @Value("${fdfs.baseUrl}")
     private String baseUrl;
 
     //上传文件

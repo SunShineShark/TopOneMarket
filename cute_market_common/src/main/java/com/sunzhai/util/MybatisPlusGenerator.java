@@ -31,20 +31,20 @@ public class MybatisPlusGenerator {
         DataSourceConfig dsConfig = new DataSourceConfig();
         dsConfig.setDbType(DbType.MYSQL)  // 设置数据库类型
                 .setDriverName("com.mysql.cj.jdbc.Driver")
-                .setUrl("jdbc:mysql://118.178.140.19:3306/hyb_amp_test?useUnicode=true&characterEncoding=utf-8&useSSL=false")
-                .setUsername("hyb_amp_test")
-                .setPassword("Asdf1234");
+                .setUrl("jdbc:mysql://59.110.41.46:7000/cute_auth?useUnicode=true&characterEncoding=utf-8&useSSL=false")
+                .setUsername("root")
+                .setPassword("Zr019741230");
 
         //3. 策略配置StrategyConfig中
-        String[] fieldPrefix = {"amp_"};
+        String[] fieldPrefix = {"cute_"};
         StrategyConfig stConfig = new StrategyConfig();
         stConfig.setCapitalMode(true) //全局大写命名
                 .setEntityLombokModel(true)
                 .setNaming(NamingStrategy.underline_to_camel)// 数据库表映射到实体的命名策略
                 .entityTableFieldAnnotationEnable(true)
-                .setTablePrefix("amp_") //指定扫描表的前缀
+                .setTablePrefix("cute_") //指定扫描表的前缀
                 .setFieldPrefix(fieldPrefix)//指定字段前缀
-                .setInclude("amp_activity_template_theme");  // 指定扫描的表的名称
+                .setInclude("cute_user_1");  // 指定扫描的表的名称
         InjectionConfig injectionConfig = new InjectionConfig() {
             @Override
             public void initMap() {
@@ -53,7 +53,7 @@ public class MybatisPlusGenerator {
         };
         //4. 包名策略配置
         PackageConfig pkConfig = new PackageConfig();
-        pkConfig.setParent("cn.com.hyb")
+        pkConfig.setParent("com.sunzhai")
                 .setMapper("mapper")//dao
                 .setService("service")//servcie
                 .setController("controller")//controller
