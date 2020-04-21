@@ -19,11 +19,15 @@
     <modules>
         <module>cute_market_core</module>
         <module>cute_market_gateway</module>
+        <module>cute_market_common</module>
     </modules>
 
     <properties>
         <spring.cloud.alibaba.version>2.2.0.RELEASE</spring.cloud.alibaba.version>
         <java.version>1.8</java.version>
+        <mybatis-plus-boot.version>3.1.2</mybatis-plus-boot.version>
+        <druid-spring-boot.version>1.1.18</druid-spring-boot.version>
+
     </properties>
 
     <dependencies>
@@ -31,7 +35,26 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-core</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.activation</groupId>
+            <artifactId>activation</artifactId>
+            <version>1.1.1</version>
+        </dependency>
 
         <!--nacos配置中心-->
         <dependency>
