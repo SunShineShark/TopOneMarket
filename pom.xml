@@ -56,6 +56,15 @@
             <version>1.1.1</version>
         </dependency>
 
+        <!--spring cloud alibaba 核心jar包-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+            <version>${spring.cloud.alibaba.version}</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+
         <!--nacos配置中心-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
@@ -70,6 +79,8 @@
             <version>${spring.cloud.alibaba.version}</version>
         </dependency>
 
+
+
         <!--开启lombok插件-->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -77,7 +88,19 @@
             <optional>true</optional>
         </dependency>
 
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-core</artifactId>
+            <version>1.7.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-annotation-aspectj</artifactId>
+            <version>1.7.2</version>
+        </dependency>
+
     </dependencies>
+
 
     <build>
         <plugins>
